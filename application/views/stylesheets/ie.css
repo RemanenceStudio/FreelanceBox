@@ -1,0 +1,74 @@
+#page-content-outer {
+    border: 1px solid #ccc;
+    padding-top: 1px;
+
+    display:block;
+    
+}
+
+#content{
+    *padding-top:60px
+}
+
+
+
+.form {
+    padding-top: 1px;
+}
+
+
+
+.list td {
+ border-bottom: 1px dotted #eee;
+
+}
+
+.list tr:hover>th, th {
+    background: #eee url(../images/table-header-bg.png) repeat-x 0 0 scroll;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+}
+
+
+
+.list tr:hover>td {
+    background: transparent url(../images/list_hover.png) repeat-x 0 -1px scroll;
+
+}
+
+.list td .small-button {
+    margin: 0 5px 8px 0;
+}
+
+ul.tab_menu a span {
+    display: inline-block;
+    padding: 9px 29px 8px;
+}
+
+.small-button {
+    margin-right: 2px;
+}
+
+.small-button span {
+    padding: 0 11px 1px 8px;
+
+}
+
+.client-actions .danger{
+    *margin-top:-23px;
+
+}
+
+#alert{
+    top:45px;
+    z-index:99999;
+}
+
+.large.button input{
+    padding-top:5px;
+}
+
+.form-title{
+    *margin-top:24px;
+}

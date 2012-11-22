@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Analytics.php" server="188.165.240.228" local="129908343856377500" remote="129907457400000000" Dst="2" />
+<file name="AuthSub.php" server="188.165.240.228" local="129908343878817500" remote="129907457400000000" Dst="2" />
+<file name="App.php" server="188.165.240.228" local="129908343878827500" remote="129907457400000000" Dst="2" />
+<file name="Books.php" server="188.165.240.228" local="129908343886177500" remote="129907457400000000" Dst="2" />
+<file name="Calendar.php" server="188.165.240.228" local="129908343893497500" remote="129907457400000000" Dst="2" />
+<file name="ClientLogin.php" server="188.165.240.228" local="129908343893537500" remote="129907457400000000" Dst="2" />
+<file name="Docs.php" server="188.165.240.228" local="129908343896367500" remote="129907457400000000" Dst="2" />
+<file name="DublinCore.php" server="188.165.240.228" local="129908343900737500" remote="129907457400000000" Dst="2" />
+<file name="Entry.php" server="188.165.240.228" local="129908343902177500" remote="129907457400000000" Dst="2" />
+<file name="Exif.php" server="188.165.240.228" local="129908343909137500" remote="129907457400000000" Dst="2" />
+<file name="Extension.php" server="188.165.240.228" local="129908343919367500" remote="129907457400000000" Dst="2" />
+<file name="Feed.php" server="188.165.240.228" local="129908343919367500" remote="129907457400000000" Dst="2" />
+<file name="Gapps.php" server="188.165.240.228" local="129908343935527500" remote="129907457400000000" Dst="2" />
+<file name="Gbase.php" server="188.165.240.228" local="129908343939907500" remote="129907457400000000" Dst="2" />
+<file name="Geo.php" server="188.165.240.228" local="129908343942767500" remote="129907457400000000" Dst="2" />
+<file name="Health.php" server="188.165.240.228" local="129908343947937500" remote="129907457400000000" Dst="2" />
+<file name="HttpAdapterStreamingProxy.php" server="188.165.240.228" local="129908343947937500" remote="129907457400000000" Dst="2" />
+<file name="HttpAdapterStreamingSocket.php" server="188.165.240.228" local="129908343947957500" remote="129907457400000000" Dst="2" />
+<file name="HttpClient.php" server="188.165.240.228" local="129908343949977500" remote="129907457400000000" Dst="2" />
+<file name="Media.php" server="188.165.240.228" local="129908343958847500" remote="129907457400000000" Dst="2" />
+<file name="MediaMimeStream.php" server="188.165.240.228" local="129908343958857500" remote="129907457400000000" Dst="2" />
+<file name="MimeBodyString.php" server="188.165.240.228" local="129908343958867500" remote="129907457400000000" Dst="2" />
+<file name="MimeFile.php" server="188.165.240.228" local="129908343960317500" remote="129907457400000000" Dst="2" />
+<file name="Photos.php" server="188.165.240.228" local="129908343979147500" remote="129907457400000000" Dst="2" />
+<file name="Query.php" server="188.165.240.228" local="129908343979197500" remote="129907457400000000" Dst="2" />
+<file name="Spreadsheets.php" server="188.165.240.228" local="129908343988367500" remote="129907457400000000" Dst="2" />
+<file name="YouTube.php" server="188.165.240.228" local="129908344020327500" remote="129907458000000000" Dst="2" />
+</dwsync>

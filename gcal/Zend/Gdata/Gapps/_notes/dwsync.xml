@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="EmailListFeed.php" server="188.165.240.228" local="129908279050117500" remote="129907458000000000" Dst="2" />
+<file name="EmailListEntry.php" server="188.165.240.228" local="129908279050177500" remote="129907458000000000" Dst="2" />
+<file name="EmailListRecipientFeed.php" server="188.165.240.228" local="129908279052767500" remote="129907458000000000" Dst="2" />
+<file name="EmailListQuery.php" server="188.165.240.228" local="129908279052777500" remote="129907458000000000" Dst="2" />
+<file name="EmailListRecipientEntry.php" server="188.165.240.228" local="129908279052807500" remote="129907458000000000" Dst="2" />
+<file name="EmailListRecipientQuery.php" server="188.165.240.228" local="129908279055487500" remote="129907458000000000" Dst="2" />
+<file name="Error.php" server="188.165.240.228" local="129908279055487500" remote="129907458000000000" Dst="2" />
+<file name="GroupEntry.php" server="188.165.240.228" local="129908279060837500" remote="129907458000000000" Dst="2" />
+<file name="GroupFeed.php" server="188.165.240.228" local="129908279063507500" remote="129907458000000000" Dst="2" />
+<file name="GroupQuery.php" server="188.165.240.228" local="129908279063507500" remote="129907458000000000" Dst="2" />
+<file name="MemberEntry.php" server="188.165.240.228" local="129908279063537500" remote="129907458000000000" Dst="2" />
+<file name="MemberFeed.php" server="188.165.240.228" local="129908279067007500" remote="129907458000000000" Dst="2" />
+<file name="MemberQuery.php" server="188.165.240.228" local="129908279067007500" remote="129907458000000000" Dst="2" />
+<file name="NicknameEntry.php" server="188.165.240.228" local="129908279067157500" remote="129907458000000000" Dst="2" />
+<file name="NicknameFeed.php" server="188.165.240.228" local="129908279069927500" remote="129907458000000000" Dst="2" />
+<file name="NicknameQuery.php" server="188.165.240.228" local="129908279069927500" remote="129907458000000000" Dst="2" />
+<file name="OwnerEntry.php" server="188.165.240.228" local="129908279069967500" remote="129907458000000000" Dst="2" />
+<file name="OwnerFeed.php" server="188.165.240.228" local="129908279072607500" remote="129907458000000000" Dst="2" />
+<file name="OwnerQuery.php" server="188.165.240.228" local="129908279072607500" remote="129907458000000000" Dst="2" />
+<file name="Query.php" server="188.165.240.228" local="129908279072627500" remote="129907458000000000" Dst="2" />
+<file name="ServiceException.php" server="188.165.240.228" local="129908279075077500" remote="129907458000000000" Dst="2" />
+<file name="UserEntry.php" server="188.165.240.228" local="129908279075267500" remote="129907458000000000" Dst="2" />
+<file name="UserFeed.php" server="188.165.240.228" local="129908279075267500" remote="129907458000000000" Dst="2" />
+<file name="UserQuery.php" server="188.165.240.228" local="129908279077907500" remote="129907458000000000" Dst="2" />
+</dwsync>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ActivityEntry.php" server="188.165.240.228" local="129908343988347500" remote="129907458000000000" Dst="2" />
+<file name="ActivityFeed.php" server="188.165.240.228" local="129908343988377500" remote="129907458000000000" Dst="2" />
+<file name="CommentEntry.php" server="188.165.240.228" local="129908343989837500" remote="129907458000000000" Dst="2" />
+<file name="CommentFeed.php" server="188.165.240.228" local="129908343989847500" remote="129907458000000000" Dst="2" />
+<file name="ContactEntry.php" server="188.165.240.228" local="129908343989867500" remote="129907458000000000" Dst="2" />
+<file name="ContactFeed.php" server="188.165.240.228" local="129908343991417500" remote="129907458000000000" Dst="2" />
+<file name="InboxEntry.php" server="188.165.240.228" local="129908344013107500" remote="129907458000000000" Dst="2" />
+<file name="InboxFeed.php" server="188.165.240.228" local="129908344014517500" remote="129907458000000000" Dst="2" />
+<file name="MediaEntry.php" server="188.165.240.228" local="129908344014517500" remote="129907458000000000" Dst="2" />
+<file name="PlaylistListEntry.php" server="188.165.240.228" local="129908344014567500" remote="129907458000000000" Dst="2" />
+<file name="PlaylistListFeed.php" server="188.165.240.228" local="129908344016137500" remote="129907458000000000" Dst="2" />
+<file name="PlaylistVideoEntry.php" server="188.165.240.228" local="129908344016137500" remote="129907458000000000" Dst="2" />
+<file name="PlaylistVideoFeed.php" server="188.165.240.228" local="129908344016157500" remote="129907458000000000" Dst="2" />
+<file name="SubscriptionEntry.php" server="188.165.240.228" local="129908344017627500" remote="129907458000000000" Dst="2" />
+<file name="SubscriptionFeed.php" server="188.165.240.228" local="129908344017637500" remote="129907458000000000" Dst="2" />
+<file name="UserProfileEntry.php" server="188.165.240.228" local="129908344018767500" remote="129907458000000000" Dst="2" />
+<file name="VideoEntry.php" server="188.165.240.228" local="129908344018767500" remote="129907458000000000" Dst="2" />
+<file name="VideoFeed.php" server="188.165.240.228" local="129908344018787500" remote="129907458000000000" Dst="2" />
+<file name="VideoQuery.php" server="188.165.240.228" local="129908344020327500" remote="129907458000000000" Dst="2" />
+</dwsync>

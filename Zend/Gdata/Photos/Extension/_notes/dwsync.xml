@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Access.php" server="188.165.240.228" local="129908343961917500" remote="129907458600000000" Dst="2" />
+<file name="AlbumId.php" server="188.165.240.228" local="129908343963387500" remote="129907458600000000" Dst="2" />
+<file name="BytesUsed.php" server="188.165.240.228" local="129908343963427500" remote="129907458600000000" Dst="2" />
+<file name="Checksum.php" server="188.165.240.228" local="129908343963427500" remote="129907458600000000" Dst="2" />
+<file name="Client.php" server="188.165.240.228" local="129908343964857500" remote="129907458600000000" Dst="2" />
+<file name="CommentCount.php" server="188.165.240.228" local="129908343964857500" remote="129907458600000000" Dst="2" />
+<file name="CommentingEnabled.php" server="188.165.240.228" local="129908343964877500" remote="129907458600000000" Dst="2" />
+<file name="Height.php" server="188.165.240.228" local="129908343966287500" remote="129907458600000000" Dst="2" />
+<file name="Id.php" server="188.165.240.228" local="129908343966287500" remote="129907458600000000" Dst="2" />
+<file name="Location.php" server="188.165.240.228" local="129908343966307500" remote="129907458600000000" Dst="2" />
+<file name="MaxPhotosPerAlbum.php" server="188.165.240.228" local="129908343967797500" remote="129907458600000000" Dst="2" />
+<file name="Name.php" server="188.165.240.228" local="129908343967797500" remote="129907458600000000" Dst="2" />
+<file name="Nickname.php" server="188.165.240.228" local="129908343967807500" remote="129907458600000000" Dst="2" />
+<file name="NumPhotos.php" server="188.165.240.228" local="129908343969287500" remote="129907458600000000" Dst="2" />
+<file name="NumPhotosRemaining.php" server="188.165.240.228" local="129908343969297500" remote="129907458600000000" Dst="2" />
+<file name="PhotoId.php" server="188.165.240.228" local="129908343969317500" remote="129907458600000000" Dst="2" />
+<file name="Position.php" server="188.165.240.228" local="129908343970737500" remote="129907458600000000" Dst="2" />
+<file name="QuotaCurrent.php" server="188.165.240.228" local="129908343970737500" remote="129907458600000000" Dst="2" />
+<file name="QuotaLimit.php" server="188.165.240.228" local="129908343970757500" remote="129907458600000000" Dst="2" />
+<file name="Rotation.php" server="188.165.240.228" local="129908343972227500" remote="129907458600000000" Dst="2" />
+<file name="Size.php" server="188.165.240.228" local="129908343972247500" remote="129907458600000000" Dst="2" />
+<file name="Thumbnail.php" server="188.165.240.228" local="129908343972267500" remote="129907458600000000" Dst="2" />
+<file name="Timestamp.php" server="188.165.240.228" local="129908343973717500" remote="129907458600000000" Dst="2" />
+<file name="User.php" server="188.165.240.228" local="129908343973727500" remote="129907458600000000" Dst="2" />
+<file name="Version.php" server="188.165.240.228" local="129908343973767500" remote="129907458600000000" Dst="2" />
+<file name="Weight.php" server="188.165.240.228" local="129908343975207500" remote="129907458600000000" Dst="2" />
+<file name="Width.php" server="188.165.240.228" local="129908343975207500" remote="129907458600000000" Dst="2" />
+</dwsync>

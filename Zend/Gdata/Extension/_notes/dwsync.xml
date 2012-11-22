@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AttendeeStatus.php" server="188.165.240.228" local="129908343909137500" remote="129907458000000000" Dst="2" />
+<file name="AttendeeType.php" server="188.165.240.228" local="129908343909187500" remote="129907458000000000" Dst="2" />
+<file name="Comments.php" server="188.165.240.228" local="129908343910597500" remote="129907458000000000" Dst="2" />
+<file name="EntryLink.php" server="188.165.240.228" local="129908343910597500" remote="129907458000000000" Dst="2" />
+<file name="EventStatus.php" server="188.165.240.228" local="129908343910627500" remote="129907458000000000" Dst="2" />
+<file name="ExtendedProperty.php" server="188.165.240.228" local="129908343912077500" remote="129907458000000000" Dst="2" />
+<file name="FeedLink.php" server="188.165.240.228" local="129908343912077500" remote="129907458000000000" Dst="2" />
+<file name="OpenSearchItemsPerPage.php" server="188.165.240.228" local="129908343912087500" remote="129907458000000000" Dst="2" />
+<file name="OpenSearchStartIndex.php" server="188.165.240.228" local="129908343913537500" remote="129907458000000000" Dst="2" />
+<file name="OpenSearchTotalResults.php" server="188.165.240.228" local="129908343913537500" remote="129907458000000000" Dst="2" />
+<file name="OriginalEvent.php" server="188.165.240.228" local="129908343913557500" remote="129907458000000000" Dst="2" />
+<file name="Rating.php" server="188.165.240.228" local="129908343914957500" remote="129907458000000000" Dst="2" />
+<file name="Recurrence.php" server="188.165.240.228" local="129908343914957500" remote="129907458000000000" Dst="2" />
+<file name="RecurrenceException.php" server="188.165.240.228" local="129908343914987500" remote="129907458000000000" Dst="2" />
+<file name="Reminder.php" server="188.165.240.228" local="129908343916377500" remote="129907458000000000" Dst="2" />
+<file name="Transparency.php" server="188.165.240.228" local="129908343916377500" remote="129907458000000000" Dst="2" />
+<file name="Visibility.php" server="188.165.240.228" local="129908343916397500" remote="129907458000000000" Dst="2" />
+<file name="When.php" server="188.165.240.228" local="129908343917797500" remote="129907458000000000" Dst="2" />
+<file name="Where.php" server="188.165.240.228" local="129908343917797500" remote="129907458000000000" Dst="2" />
+<file name="Who.php" server="188.165.240.228" local="129908343917837500" remote="129907458000000000" Dst="2" />
+</dwsync>

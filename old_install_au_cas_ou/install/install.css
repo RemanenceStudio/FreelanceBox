@@ -1,0 +1,39 @@
+.error_list{
+    float:left;
+    margin-top:0;
+    clear:both;
+    margin-bottom:18px;
+}
+
+.error_list .error{
+    margin:10px 0;
+}
+
+.response{
+ 
+}
+
+.button.large{
+    margin-left:0;
+    margin-top:12px;
+   
+    clear:both;
+}
+form{
+    clear:both;
+    display:block;
+    float:left;
+    margin-top:24px
+}
+
+label{
+    font-size:14px;
+    margin-bottom:3px;
+    color: #a0b4c8;
+    font-weight:bold;
+
+}
+
+form div{
+    margin-bottom:18px;
+}
