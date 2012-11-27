@@ -9,8 +9,6 @@ class AuthStatus
 
 //TODO: nonexistant record to group_id = 0,
 
-die();
-
     function logged_in()
     {
         @session_start();
