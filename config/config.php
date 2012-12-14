@@ -11,8 +11,8 @@ define('DEVELOPMENT_ENVIRONMENT', false);
 
 /** DATABASE CONNECTION VARIABLES **/
 define('DB_NAME', 'freelancebox');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '');
+define('DB_USER', 'freelancebox');
+define('DB_PASSWORD', 'd2AMY2a');
 define('DB_HOST', 'localhost');
 
 
@@ -28,7 +28,7 @@ global $CONFIG;
 
 
 /** BASE URL **/
-$CONFIG['base_url'] = 'http://localhost/FreelanceBox/';
+$CONFIG['base_url'] = 'http://www.freelancebox.fr/V2/';
 
 $CONFIG['company']['name'] = ''; 
 $CONFIG['company']['address'] = '';
