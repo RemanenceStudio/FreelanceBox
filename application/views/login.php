@@ -28,7 +28,7 @@
                     <input type="password" name="password" id="password" class="eight" />
                 </div>
             
-                <div class="clearfix button-container"><input class="button" type="submit" value="Login">
+                <div class="clearfix button-container" style="margin-bottom:15px;"><input class="button" type="submit" value="Login">
                 </div>
                 </fieldset>
             </div>

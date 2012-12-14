@@ -40,8 +40,8 @@
       </li>
       <li class="divider"></li>
 	  <li class="name">
-      <h1><a class="ie6fix" href="<?php echo Controller::redirect('portal/home', true); ?>"><? if($_SESSION['name_id'] != '') echo ', <strong>' . $_SESSION['name_id'] .'</strong>'; ?></a></h1>
-      </li>
+      <h1><a class="ie6fix" href="<?php echo Controller::redirect('portal/home', true); ?>"><? if($_SESSION['name_id'] != '') echo '<strong>' . $_SESSION['name_id'] .'</strong>'; ?></a></h1>
+    </li>
       <li class="divider"></li>
       
       <section>
@@ -137,7 +137,7 @@
 </div>
 <!--END NAVIGATION-->
 
-<div id="myModal" class="reveal-modal medium round">
+<div id="myModal" class="reveal-modal small ">
     <div id="modal-body"></div>
     <a class="close-reveal-modal">&#215;</a>
 </div>

@@ -19,8 +19,8 @@ $mainColor: #ea533f;
 // $highlightColor: #ffff99;
 // $black: #000;
 $white: #fff;
-// $shinyEdge: rgba(#fff, .5);
-// $darkEdge: rgba(#000, .2);
+$shinyEdge: rgba(#fff, 0);
+$darkEdge: rgba(#000, 0);
 
 // Typography Settings
 
@@ -92,90 +92,3 @@ $white: #fff;
 @import "compass/css3/background-clip";
 @import "compass/css3/images";
 @import "compass/css3/text-shadow";
-
-body {
-	background:url(../images/sidebar_bg.gif) repeat-y 0% 0 !important;
-	}
-	
-ul, ol {
-	list-style-type:none;	
-	}
-.button {
-	border: 1px solid #e4422d; // stroke
-	@include border-radius(4px); // border radius
-	@include background-clip(); // prevents bg color from leaking outside the border
-	background-color: #d7e1d9; // layer fill content
-	@include background-image(linear-gradient(bottom, #e9533f 0%, #f56451 100%)); // gradient overlay
-	}
-.button:hover {
-	@include standardTransition;
-    }
-.top-bar{
-	background:$white !important;
-	border-bottom:1px solid #ebebeb !important;	
-	}	
-
-.top-bar ul li a{
-  color: #666 !important;
-}
-
-.top-bar ul > li.divider {
-background: #CCC !important;
-}
-.top-bar ul > li.has-dropdown .dropdown {
-	background: #f7f7f7 !important;
-}
-.top-bar ul > li.has-dropdown .dropdown li {
-	background: #f7f7f7 !important;
-}
-.top-bar ul > li:hover, .top-bar ul > li.active {
-  background: #f7f7f7 !important;
-}	
-.top-bar ul > li:hover a, .top-bar ul > li.active a {
-  color: #333 !important;
-}
-#sidebar-navigation{
-	width:205px;
-	position:relative;
-	top:100px;
-	}
-
-.navigation{
-	position:relative;
-	left:-20px;
-	}
-.mainnav > li {
-	background-color: #f7f7f7;
-	border-top:1px solid #ebebeb !important;
-	border-bottom:1px solid #ebebeb !important;
-	border-right:none !important;
-	@include standardTransition;
-	:hover {
-		width:205px;
-		background-color: #FFF;
-		border-right:none !important;
-		border-left:5px solid $mainColor !important;
-		}
-	}
-	
-.mainnav > li a{
-	display:block;
-	width:205px;
-	color: #666666 !important;
-	font-size: 15px;
-	@include text-shadow(0 1px 0 #fff);
-	@include standardTransition;
-	:hover {
-		color: #333 !important;
-		font-weight:bold;
-		}
-	}
-	
-.reveal-modal {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.tall {
-	font-size:250% !important;	
-	}

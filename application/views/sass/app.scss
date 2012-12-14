@@ -1,6 +1,6 @@
 // You custom settings file to override Foundation defaults
 @import "settings";
-@import "fonts";
+@import "fonts"; 
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
@@ -45,3 +45,109 @@
 // @import "foundation/components/modules/reveal";
 // @import "foundation/components/modules/offcanvas";
 
+body {
+	background:#fbfbfb url(../images/sidebar_bg.gif) repeat-y 0% 0 !important;
+	}
+	
+ul, ol {
+	list-style-type:none;	
+	}
+.button {
+	color:$white;
+	background: #d7e1d9;
+	@include background-clip(); // prevents bg color from leaking outside the border
+	@include background-image(linear-gradient(bottom, #e9533f 0%, #f56451 100%));
+	border: 1px solid #FBFBFB !important;
+	&:hover {
+		@include standardTransition;
+		background: darken(#f56451,10%) !important;
+		}
+	}
+
+.top-bar{
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f7f7f7 74%, #eaeaea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(74%,#f7f7f7), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f7f7f7 74%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f7f7f7 74%,#eaeaea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f7f7f7 74%,#eaeaea 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f7f7f7 74%,#eaeaea 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+	border-bottom:1px solid #ebebeb !important;	
+	}	
+
+.top-bar ul li a{
+  color: #666 !important;
+}
+ 
+.top-bar > ul .name h1 {
+  width:204px;
+}
+
+.top-bar ul > li.divider {
+background: #CCC !important;
+}
+.top-bar ul > li.has-dropdown .dropdown {
+	background: #f7f7f7 !important;
+}
+.top-bar ul > li.has-dropdown .dropdown li {
+	background: #f7f7f7 !important;
+}
+.top-bar ul > li:hover, .top-bar ul > li.active {
+  background: #f7f7f7 !important;
+}	
+.top-bar ul > li:hover a, .top-bar ul > li.active a {
+  color: #333 !important;
+}
+.top-bar ul > li.has-dropdown .dropdown li a:hover {
+	background: #FFF !important;
+}
+#sidebar-navigation{
+	width:205px;
+	position:relative;
+	top:100px;
+	}
+
+.navigation{
+	position:relative;
+	left:-20px;
+	}
+.mainnav > li {
+	background-color: #f7f7f7;
+	border-top:1px solid #ebebeb !important;
+	border-bottom:1px solid #ebebeb !important;
+	border-right:none !important;
+	@include standardTransition;
+	:hover {
+		width:205px;
+		background-color: #FFF;
+		border-right:none !important;
+		border-left:5px solid $mainColor !important;
+		}
+	}
+	
+.mainnav > li a{
+	display:block;
+	width:205px;
+	color: #666666 !important;
+	font-size: 15px;
+	@include text-shadow(0 1px 0 #fff);
+	@include standardTransition;
+	:hover {
+		color: #333 !important;
+		font-weight:bold;
+		}
+	}
+	
+.reveal-modal {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.tall {
+	font-size:250% !important;	
+	}
+
+.bordertest {
+	border: 1px dotted red;
+}
