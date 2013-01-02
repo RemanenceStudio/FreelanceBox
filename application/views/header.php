@@ -40,8 +40,8 @@
       </li>
       <li class="divider"></li>
 	  <li class="name">
-      <h1><a class="ie6fix" href="<?php echo Controller::redirect('portal/home', true); ?>"><? if($_SESSION['name_id'] != '') echo ', <strong>' . $_SESSION['name_id'] .'</strong>'; ?></a></h1>
-      </li>
+      <h1><a class="ie6fix" href="<?php echo Controller::redirect('portal/home', true); ?>"><? if($_SESSION['name_id'] != '') echo '<strong>' . $_SESSION['name_id'] .'</strong>'; ?></a></h1>
+    </li>
       <li class="divider"></li>
       
       <section>
@@ -70,11 +70,11 @@
             
            	<li class="has-dropdown"><a class="active" href="#">Langue</a>
             	<ul class="dropdown">
-                    <li>
-                        <a href="index.php?lang=fr" style="padding: 0 0 0 5px;">Fr</a>
+                    <li style="width:100px;">
+                        <a style="padding:5px;" href="index.php?lang=fr">Fran&ccedil;ais</a>
                     </li>
-                    <li>
-                        <a href="index.php?lang=en" style="padding: 0 0 0 5px;">En</a>
+                    <li style="width:100px;">
+                        <a style="padding:5px;" href="index.php?lang=en">English</a>
                     </li>
                 </ul>
             </li>
@@ -137,7 +137,7 @@
 </div>
 <!--END NAVIGATION-->
 
-<div id="myModal" class="reveal-modal medium round">
+<div id="myModal" class="reveal-modal small ">
     <div id="modal-body"></div>
     <a class="close-reveal-modal">&#215;</a>
 </div>

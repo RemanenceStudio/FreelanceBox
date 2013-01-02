@@ -9,7 +9,7 @@ $notes = isset($notes) ? $notes : '';
 ?>
 
 <div class="row">
-       <div class="ten columns centered" style="margin-top:20px;">
+       <div class="twelve columns centered" style="margin-top:20px;">
         <form class="custom" id="new_project" action="index.php?a=invoices/create/<?php echo ($is_edit)?$invoice_id:''; ?>" method="post">
         
         	<div class="row">

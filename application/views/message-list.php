@@ -36,7 +36,7 @@ function parse_class($column)
 <div id="page-content-outer">
     <div id="page-content" class="wrapper content admin">
         <div class="info-bar">
-            <h1 class="title"><?php echo ucfirst($tab) ?></h1>
+            <h1 class="title ostrich-medium tall"><?php echo ucfirst($tab) ?></h1>
 
         <?php if (is_array($object_actions)): ?>
             <ul class="sub-tabs">

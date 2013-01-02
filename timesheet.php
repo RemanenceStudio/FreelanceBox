@@ -20,14 +20,15 @@ if( isset($_GET['del']) ) {
 }
 
 ?>
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <!--<link href="application/views/css/basic.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="application/views/css/style.css" media="screen" rel="stylesheet" type="text/css"/>-->
+    
+    <link rel="stylesheet" href="application/views/stylesheets/app.css">
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <link href="application/views/css/basic.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="application/views/css/style.css" media="screen" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="application/views/js/main.js"></script>
 	<script type="text/javascript">
@@ -44,69 +45,123 @@ if( isset($_GET['del']) ) {
 </head>
 
 <body>
-<div id="header">
-    <div class="wrapper clearfix">
-        <div class="logo-container">
-            <h2 id="logo"><a class="ie6fix"
-                             href="index.php?a=portal/home">FreelanceBox <? if($_SESSION['name_id'] != '') echo ', <strong>' . $_SESSION['name_id'] .'</strong>'; ?></a>
-            </h2>
+  <!--START TOP BAR-->
+<nav class="top-bar">
+  <ul>
+    <li class="name">
+      <h1><a class="ie6fix" href="">FreelanceBox</a></h1>
+      </li>
+      <li class="divider"></li>
+    <li class="name">
+      <h1><a class="ie6fix" href=""><? if($_SESSION['name_id'] != '') echo '<strong>' . $_SESSION['name_id'] .'</strong>'; ?></a></h1>
+    </li>
+      <li class="divider"></li>
+      
+      <section>
+        <ul class="right">
+            <li class="divider"></li>
+       <?php if (isset($user['group_id']) && $user['group_id'] == 0): ?>
+            <li class="has-dropdown"><a class="active" href="#">Mon compte</a>
+                <ul class="dropdown">
+                    <li>
+                        <a class="new-admin-button modal" data-reveal-id="myModal" data-animation="fade"
+                           href=""><?php echo $lang["lang_newAdmin"] ?></a>
+                    </li>
+                    <li>
+                        <a class="new-admin-button modal" data-reveal-id="myModal" data-animation="fade"
+                           href=""><?php echo $lang["lang_editMyInfo"] ?></a>
+                    </li>
+                    <li>
+                        <a class="change-pass-button modal" data-reveal-id="myModal" data-animation="fade"
+                           href=""><?php echo $lang["lang_changePassword"] ?></a>
+                    </li>
+            
+                 </ul>
+            </li>
+           <?php endif; ?>
+            <li class="divider"></li>
+            
+            <li class="has-dropdown"><a class="active" href="#">Langue</a>
+              <ul class="dropdown">
+                    <li>
+                        <a href="index.php?lang=fr" style="padding: 0 0 0 5px;">Fr</a>
+                    </li>
+                    <li>
+                        <a href="index.php?lang=en" style="padding: 0 0 0 5px;">En</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="divider"></li>
+            
+           <li>
+            <a href=""><?php echo $lang["lang_logout"] ?></a>
+           </li>
+        </ul>
+      </section>
+    </ul>
+</nav>
+<!--END TOP BAR-->
+
+
+
+<!--START HEADER-->
+    <header id="header">
+        <div class="row">
+              
+    
         </div>
-        <div class="navigation">
-         		
-            <ul class="main_nav dropdown">
+    </header>
+<!--END HEADER-->
+
+
+<div class="row">
+
+
+<!--START NAVIGATION-->       
+<div class="two columns" id="sidebar-navigation">
+    <nav class="navigation">
+        <div class="row">
+        <ul class="nav-bar mainnav vertical">
+              <li>
+                  <a href="index.php?a=portal/home"><?php echo $lang["lang_home"] ?></a>
+              </li>
+              <?php if ( isset($_SESSION['auth']) && $_SESSION['auth'] == 1) { ?>
                 <li>
-                    <a href="index.php?a=portal/home"><?php echo $lang["lang_home"] ?></a>
+                  <a class="new-client-button modal" data-reveal-id="myModal" data-animation="fade"
+                     href="index.php?a=clients/create"><?php echo $lang["lang_newClient"] ?></a>
                 </li>
-                <li><a href="#">Actions</a>
-                    <ul>
-                    <?php if ( isset($_SESSION['auth']) && $_SESSION['auth'] == 1) { ?>
-                        <li>
-                            <a class="new-client-button modal"
-                               href="index.php?a=clients/create"><?php echo $lang["lang_newClient"] ?></a>
-                        </li>
-                        <li>
-                            <a class="new-project-button modal"
-                               href="index.php?a=projects/start"><?php echo $lang["lang_newProject"] ?></a>
-                        </li>
-                        <li>
-                            <a class="new-invoice-button modal"
-                               href="index.php?a=invoices/create"><?php echo $lang["lang_newInvoice"] ?></a>
-                        </li>
-                        <li>
-                            <a class="new-admin-button modal"
-                               href="index.php?a=clients/edit/admin"><?php echo $lang["lang_newAdmin"] ?></a>
-                        </li>
-                        <li>
-                            <a class="new-admin-button modal"
-                               href="index.php?a=clients/edit/myprofile"><?php echo $lang["lang_editMyInfo"] ?></a>
-                        </li>
-                    <?php } ?>
-                        <li>
-                            <a class="change-pass-button modal"
-                               href="index.php?a=clients/change_password"><?php echo $lang["lang_changePassword"] ?></a>
-                        </li>
-                    </ul>
+                <li>
+                    <a class="new-project-button modal" data-reveal-id="myModal" data-animation="fade"
+                       href="index.php?a=projects/start"><?php echo $lang["lang_newProject"] ?></a>
                 </li>
 
-				<li>
-                    <a href="index.php?a=portal/logout"><?php echo $lang["lang_logout"] ?></a>
+                <li>
+                    <a class="new-invoice-button modal" data-reveal-id="myModal" data-animation="fade"
+                       href="index.php?a=invoices/create"><?php echo $lang["lang_newInvoice"] ?></a>
                 </li>
-				<li>
-					<a href="index.php?lang=fr" style="padding: 0 0 0 5px;"><img src="images/FR.png" alt="FR" /></a>
-					<a href="index.php?lang=en" style="padding: 0 0 0 5px;"><img src="images/GB.png" alt="EN" /></a>
-				</li>
-            </ul>
+              <?php } ?>
 
-            <a class="resize_button"></a>
-		        </div>
+			<li>
+                  <a href="index.php?a=portal/logout"><?php echo $lang["lang_logout"] ?></a>
+              </li>
+			<li>
+				<a href="index.php?lang=fr" style="padding: 0 0 0 5px;"><img src="images/FR.png" alt="FR" /></a>
+				<a href="index.php?lang=en" style="padding: 0 0 0 5px;"><img src="images/GB.png" alt="EN" /></a>
+			</li>
+          </ul>
 
-    </div>
+          <a class="resize_button"></a>
+        </div>
+    </nav>
 </div>
+<!--END NAVIGATION-->
 
-
-<div id="modal" class="jqmWindow jqmID1">
+<div id="myModal" class="reveal-modal small ">
     <div id="modal-body"></div>
+    <a class="close-reveal-modal">&#215;</a>
 </div>
+
 
 <?php
 
@@ -181,6 +236,7 @@ else $alert_class = $alert = '';
   </div>
 </div>
 </div> <!-- end content-->
+</div>
 
 <!-- BOX NEW TIMESHEET -->
 <div class="jqmOverlay" style="display: none; height: 100%; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 2999; opacity: 0.5;"></div>

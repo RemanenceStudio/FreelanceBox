@@ -221,10 +221,10 @@ class ClientsController extends Controller
             }
 			
 			if($verif_view == 'myprofile') {
-            	$form->dependencies['title'] = ($client_id == null) ? (!$new_admin) ? 'New Client' : 'New Admin' : 'Edit Profil';
+            	$form->dependencies['title'] = ($client_id == null) ? (!$new_admin) ? 'Nouveau client' : 'Nouvel admin' : 'Editer Profil';
 			}
 			else {
-				$form->dependencies['title'] = ($client_id == null) ? (!$new_admin) ? 'New Client' : 'New Admin' : 'Edit Client';	
+				$form->dependencies['title'] = ($client_id == null) ? (!$new_admin) ? 'Nouveau client' : 'Nouvel admin' : 'Editer Client';	
 			}
             $form->dependencies['new_admin'] = $new_admin;
             $form->dependencies['form'] = 'application/views/new-client.php';
@@ -336,7 +336,7 @@ class ClientsController extends Controller
             }
 
             $object_actions = ($user['group_id'] == 0) ? array(
-                'New Client[modal]' => $this->redirect('clients/create', true)
+                'Nouveau Client[modal]' => $this->redirect('clients/create', true)
             ) : null;
 			
 			/*echo '<pre>';

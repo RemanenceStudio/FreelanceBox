@@ -61,7 +61,7 @@ class ProjectsController extends Controller
             }
 
             $this->loadModel('Client');
-            $form->dependencies['title'] = ($project_id == null) ? 'New Project' : 'Edit Project';
+            $form->dependencies['title'] = ($project_id == null) ? 'Nouveau projet' : 'Editer Projet';
             $form->dependencies['form'] = 'application/views/project.php';
             $form->dependencies['clients'] = $this->Client->selectAll("WHERE `group_id` != 0 AND `admin_id` = " . $_SESSION['auth_id']);
             $form->dependencies['project_id'] = $project_id;
@@ -181,7 +181,7 @@ class ProjectsController extends Controller
             }
 
             $object_actions = ($user['group_id'] == 0) ? array(
-                'New Project[modal]' => $this->redirect('projects/start', true)
+                'Nouveau Projet[modal]' => $this->redirect('projects/start', true)
             ) : null;
 
             $base = $this->redirect("projects/" . __FUNCTION__ . "/$filter/", true);

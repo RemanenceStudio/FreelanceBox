@@ -18,14 +18,14 @@ $actions = (isset($actions)) ? $actions : null;
 ?>
 
 
-<table class="list">
+<table class="list" style="width:100%;">
 
     <tr class="table-header">
     <?php if (is_array($columns)): ?>
 
     <?php foreach ($columns as $column): ?>
 
-        <th><?php echo $column; ?></th>
+        <th class="text-left" style="padding-left:11px;"><?php echo $column; ?></th>
 
     <?php endforeach; ?>
 

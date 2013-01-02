@@ -29,7 +29,7 @@ function parse_class($column)
 
 <div id="page-content-outer">
   <div id="page-content" class="wrapper content admin">
-    <div class="info-bar">
+    <div class="info-bar" style="margin:38px 0;">
       <h1 class="title ostrich-medium tall"><?php echo $lang["lang_" . $tab]; ?></h1>
       <?php if (is_array($object_actions)): ?>
       
@@ -37,7 +37,7 @@ function parse_class($column)
         <?php foreach ($object_actions as $name => $action): ?>
         <?php $name = parse_class($name); ?>
         <li class="object-action <?php echo (isset($name['class'])) ? $name['class'] : ''; ?>">
-        	<a class="button right" href="<?php echo $action; ?>"><span><?php echo $name['column']; ?></span></a>
+        	<a class="button right"  data-reveal-id="myModal" data-animation="fade" href="<?php echo $action; ?>"><span><?php echo $name['column']; ?></span></a>
         </li>
         <?php endforeach; ?>
       </ul>  	
@@ -47,14 +47,14 @@ function parse_class($column)
     <div class="row">
         <ul class="button-group radius ">
           <?php if ($user['group_id'] == 0): ?>
-          <li class="<?php echo ($tab == 'clients') ? 'selected' : ''; echo ($tab == 'projects') ? 'no-div' : ''; ?>"> <a class="button secondary" href="index.php?a=clients/get/all"><span><?php echo $lang["lang_clients"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'clients') ? 'selected' : ''; echo ($tab == 'projects') ? 'no-div' : ''; ?>"> <a class="button" href="index.php?a=clients/get/all"><span><?php echo $lang["lang_clients"] ?></span></a> </li>
           <?php endif; ?>
-          <li class="<?php echo ($tab == 'projects') ? 'selected' : ''; echo ($tab == 'invoices') ? 'no-div' : ''; ?>"> <a class="button  secondary" href="index.php?a=projects/get/all"><span><?php echo $lang["lang_projects"] ?></span></a> </li>
-          <li class="<?php echo ($tab == 'invoices') ? 'selected' : ''; echo ($tab == 'payments') ? 'no-div' : ''; ?>"> <a class="button  secondary" href="index.php?a=invoices/get/all"><span><?php echo $lang["lang_invoices"] ?></span></a> </li>
-          <li class="<?php echo ($tab == 'calendar') ? 'selected' : ''; ?>"> <a class="button secondary" href="calendar.php"><span><?php echo $lang["lang_calendar"] ?></span></a> </li>
-          <li class="<?php echo ($tab == 'timesheet') ? 'selected' : ''; ?>"> <a class="button secondary" href="timesheet.php"><span><?php echo $lang["lang_timesheet"] ?></span></a> </li>
-          <li class="<?php echo ($tab == 'payments') ? 'selected' : ''; ?>"> <a class="button secondary" href="index.php?a=payments/get/all"><span><?php echo $lang["lang_payments"] ?></span></a> </li>
-          <li class="<?php echo ($tab == 'messages') ? 'selected' : ''; ?> messages"> <a class="button secondary" href="index.php?a=messages/get/all"><span>&nbsp;</span></a> </li>
+          <li class="<?php echo ($tab == 'projects') ? 'selected' : ''; echo ($tab == 'invoices') ? 'no-div' : ''; ?>"> <a class="button " href="index.php?a=projects/get/all"><span><?php echo $lang["lang_projects"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'invoices') ? 'selected' : ''; echo ($tab == 'payments') ? 'no-div' : ''; ?>"> <a class="button " href="index.php?a=invoices/get/all"><span><?php echo $lang["lang_invoices"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'calendar') ? 'selected' : ''; ?>"> <a class="button" href="calendar.php"><span><?php echo $lang["lang_calendar"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'timesheet') ? 'selected' : ''; ?>"> <a class="button" href="timesheet.php"><span><?php echo $lang["lang_timesheet"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'payments') ? 'selected' : ''; ?>"> <a class="button" href="index.php?a=payments/get/all"><span><?php echo $lang["lang_payments"] ?></span></a> </li>
+          <li class="<?php echo ($tab == 'messages') ? 'selected' : ''; ?> messages"> <a class="button" href="index.php?a=messages/get/all"><span>&nbsp;</span></a> </li>
           </ul>
     </div>
     <div class="row">
